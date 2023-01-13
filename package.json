@@ -12,7 +12,7 @@
   "engines": {
     "vscode": "^1.30.0"
   },
-  "icon": "logo.png",
+  "icon": "images/grannepack-web-dev-snippets.png",
   "categories": [
     "Snippets"
   ],
@@ -29,11 +29,11 @@
     "theme": "dark"
   },
   "repository": {
-    "url": "https://github.com/rsgranne/grannepack-html-snippets"
+    "url": "https://github.com/rsgranne/grannepack-web-dev-snippets"
   },
-  "homepage": "https://github.com/rsgranne/grannepack-html-snippets",
+  "homepage": "https://github.com/rsgranne/grannepack-web-dev-snippets",
   "bugs": {
-    "url": "https://github.com/rsgranne/grannepack-html-snippets/issues"
+    "url": "https://github.com/rsgranne/grannepack-web-dev-snippets/issues"
   },
   "contributes": {
     "snippets": [
