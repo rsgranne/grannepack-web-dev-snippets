@@ -1,0 +1,54 @@
+{
+  "name": "grannepack-snippets",
+  "displayName": "GrannePack Snippets",
+  "description": "HTML-, CSS-, & SCSS-related snippets for Scott Granneman’s Web Dev courses",
+  "version": "0.0.1",
+  "publisher": "granneman",
+  "author": {
+    "name": "Scott Granneman",
+    "email": "scott@granneman.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "icon": "logo.png",
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "html",
+    "css",
+    "scss",
+    "granneman",
+    "grannepack",
+    "teaching"
+  ],
+  "galleryBanner": {
+    "color": "#4a525a",
+    "theme": "dark"
+  },
+  "repository": {
+    "url": "https://github.com/rsgranne/grannepack-html-snippets"
+  },
+  "homepage": "https://github.com/rsgranne/grannepack-html-snippets",
+  "bugs": {
+    "url": "https://github.com/rsgranne/grannepack-html-snippets/issues"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html-snippets.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css-snippets.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/scss-snippets.json"
+      }
+    ]
+  }
+}
