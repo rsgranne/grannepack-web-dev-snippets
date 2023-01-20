@@ -19,7 +19,7 @@ In the following tables, `${0}` represents the *final* cursor position. In most 
 
 ### HTML
 
-`a`: 
+`a`:
 
 ```html
 <a href="${1}">${0}</a>
@@ -336,7 +336,7 @@ In the following tables, `${0}` represents the *final* cursor position. In most 
 </video>
 ```
 
-### CSS & SCSS
+### CSS
 
 `,condensed` (Condensed font stack):
 
@@ -344,20 +344,20 @@ In the following tables, `${0}` represents the *final* cursor position. In most 
 Oswald, 'Avenir Next Condensed', AvenirNextCondensed-Medium, HelveticaNeue, sans-serif-condensed, 'Gill Sans Nova Cond', 'Arial Nova Condensed', 'Arial Narrow', sans-serif;${0}
 ```
 
-`,h1com` (Large commented section label):
+`,h1com` (Large section comment):
 
 ```css
-/****************************************",
-  "${1}",
-"****************************************/
+/****************************************
+${1}
+****************************************/
 ```
 
-`,h2com`  (Small commented section label):
+`,h2com`  (Small section comment):
 
 ```css
-/**********",
-"${1}",
-"**********/
+/**********
+${1}
+**********/
 ```
 
 `,hx` (Headings selector list):
@@ -371,3 +371,41 @@ h1, h2, h3, h4, h5, h6
 ```css
 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'${0}
 ```
+
+### SCSS
+
+`,condensed` (Condensed Font Stack):
+
+```scss
+Oswald, 'Avenir Next Condensed', AvenirNextCondensed-Medium, HelveticaNeue, sans-serif-condensed, 'Gill Sans Nova Cond', 'Arial Nova Condensed', 'Arial Narrow', sans-serif;${0}
+```
+
+`,h1com` (Large section comment):
+
+```scss
+//****************************************
+// ${1}
+//****************************************
+```
+
+`,h2com` (Small section comment):
+
+```scss
+//**********
+// ${1}
+//**********
+```
+
+`,hx` (Headings selector list):
+
+```scss
+h1, h2, h3, h4, h5, h6
+```
+
+`,uifonts` (Common UI Fonts Stack):
+
+```scss
+system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;${0}
+```
+
+More to come!
