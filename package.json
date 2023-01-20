@@ -39,15 +39,15 @@
     "snippets": [
       {
         "language": "html",
-        "path": "./snippets/html-snippets.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "css",
-        "path": "./snippets/css-snippets.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "scss",
-        "path": "./snippets/scss-snippets.json"
+        "path": "./snippets/snippets.json"
       }
     ]
   }
