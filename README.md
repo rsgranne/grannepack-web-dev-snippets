@@ -4,6 +4,8 @@ This is the README for GrannePack Web Dev Snippets.
 
 This extension pack of HTML-, CSS-, & SCSS-related *snippets* is aimed at students in [Scott Granneman’s](https://www.granneman.com/) beginning Web Development courses. Other languages may be added at later times.
 
+A list of all snippets & their outputs are further below.
+
 ## Other extension packs focusing on extensions
 
 In addition, I have also created extension packs of *extensions*, also for students in [my](https://www.granneman.com/) beginning Web Development courses:
