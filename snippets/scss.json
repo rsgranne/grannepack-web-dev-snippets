@@ -1,5 +1,6 @@
 {
-  "Condensed Font Stack": {
+  "Condensed Font Stack (SCSS)": {
+    "scope": "scss",
     "prefix": ",condensed",
     "body": [
       "Oswald, 'Avenir Next Condensed', AvenirNextCondensed-Medium, HelveticaNeue, sans-serif-condensed, 'Gill Sans Nova Cond', 'Arial Nova Condensed', 'Arial Narrow', sans-serif;${0}"
@@ -9,8 +10,35 @@
       "Apple, Windows, & Android"
     ]
   },
-  "Common UI Fonts": {
-    "prefix": "uifonts",
+  "Comments (Major) (SCSS)": {
+    "scope": "scss",
+    "prefix": ",h1com",
+    "body": [
+      "//****************************************",
+      "// ${1}",
+      "//****************************************"
+    ],
+    "description": "Major commented sections"
+  },
+  "Comments (Minor) (SCSS)": {
+    "scope": "scss",
+    "prefix": ",h2com",
+    "body": [
+      "//**********",
+      "// ${1}",
+      "//**********"
+    ],
+    "description": "Minor commented sections"
+  },
+  "Headings (SCSS)": {
+    "scope": "scss",
+    "prefix": ",hx",
+    "body": "h1, h2, h3, h4, h5, h6",
+    "description": "Headings selector list"
+  },
+  "Common UI Fonts Stack (SCSS)": {
+    "scope": "scss",
+    "prefix": ",uifonts",
     "body": [
       "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;${0}"
     ],
@@ -18,10 +46,5 @@
       "Common system fonts used by",
       "Apple, Windows, & Android"
     ]
-  },
-  "Heading": {
-    "prefix": "hx",
-    "body": "h1, h2, h3, h4, h5, h6",
-    "description": "Selector list for headings"
   }
 }
