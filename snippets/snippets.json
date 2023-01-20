@@ -1,0 +1,540 @@
+{
+  "Anchor": {
+    "scope": "html",
+    "prefix": "a",
+    "body": [
+      "<a href=\"${1}\">${0}</a>"
+    ],
+    "description": "<a>: Anchor (link)"
+  },
+  "Address": {
+    "scope": "html",
+    "prefix": "address",
+    "body": [
+      "<address>",
+      "\t${0}",
+      "</address>"
+    ],
+    "description": [
+      "<address>: Author contact",
+      "info, indented"
+    ]
+  },
+  "Article": {
+    "scope": "html",
+    "prefix": "article",
+    "body": [
+      "<article>",
+      "\t${0}",
+      "</article>"
+    ],
+    "description": "<article>, indented"
+  },
+  "Aside": {
+    "scope": "html",
+    "prefix": "aside",
+    "body": [
+      "<aside>",
+      "\t${0}",
+      "</aside>"
+    ],
+    "description": "<aside>, indented"
+  },
+  "Blockquote": {
+    "scope": "html",
+    "prefix": "blockquote",
+    "body": [
+      "<blockquote>",
+      "\t${0}",
+      "</blockquote>"
+    ],
+    "description": "<aside>, indented"
+  },
+  "Bold": {
+    "scope": "html",
+    "prefix": "b",
+    "body": [
+      "<b>${1}</b>${0}"
+    ],
+    "description": "<b>: Stylistically bold"
+  },
+  "Description List": {
+    "scope": "html",
+    "prefix": "dl",
+    "body": [
+      "<dl>",
+      "\t${0}",
+      "</dl>"
+    ],
+    "description": [
+      "<dl>: Description list,",
+      "indented"
+    ]
+  },
+  "Description Data": {
+    "scope": "html",
+    "prefix": "dd",
+    "body": [
+      "<dd>${0}</dd>"
+    ],
+    "description": "<dd>: Description list data"
+  },
+  "Description Term": {
+    "scope": "html",
+    "prefix": "dt",
+    "body": [
+      "<dt>${0}</dt>"
+    ],
+    "description": "<dt>: Description list term"
+  },
+  "Division": {
+    "scope": "html",
+    "prefix": "div",
+    "body": [
+      "<div>",
+      "\t${0}",
+      "</div>"
+    ],
+    "description": "<div>, indented"
+  },
+  "Emphasis": {
+    "scope": "html",
+    "prefix": "em",
+    "body": [
+      "<em>${0}</em>"
+    ],
+    "description": "<em>: Emphasis"
+  },
+  "Figure": {
+    "scope": "html",
+    "prefix": "figure",
+    "body": [
+      "<figure>",
+      "\t${0}",
+      "</figure>"
+    ],
+    "description": "<figure>, indented"
+  },
+  "Figure Caption": {
+    "scope": "html",
+    "prefix": "figcaption",
+    "body": [
+      "<figcaption>",
+      "\t${0}",
+      "</figcaption>"
+    ],
+    "description": [
+      "figcaption>: Figure caption,",
+      "indented"
+    ]
+  },
+  "Footer": {
+    "scope": "html",
+    "prefix": "footer",
+    "body": [
+      "<footer>",
+      "\t${0}",
+      "</footer>"
+    ],
+    "description": "<footer>, indented"
+  },
+  "Head": {
+    "scope": "html",
+    "prefix": "head",
+    "body": [
+      "<head>",
+      "\t${0}",
+      "</head>"
+    ],
+    "description": "<head>, indented"
+  },
+  "Header": {
+    "scope": "html",
+    "prefix": "header",
+    "body": [
+      "<header>",
+      "\t${0}",
+      "</header>"
+    ],
+    "description": "<header>, indented"
+  },
+  "HTML": {
+    "scope": "html",
+    "prefix": "html",
+    "body": [
+      "<html>",
+      "\t${0}",
+      "</html>"
+    ],
+    "description": "<html>, indented"
+  },
+  "Image": {
+    "scope": "html",
+    "prefix": "img",
+    "body": [
+      "<img src=\"${0}\" alt=\"\" width=\"\" height=\"\" srcset=\"\">"
+    ],
+    "description": "<img>: Image"
+  },
+  "Italic": {
+    "scope": "html",
+    "prefix": "i",
+    "body": [
+      "<i>${0}</i>"
+    ],
+    "description": "<i>: Stylistically italic"
+  },
+  "Link": {
+    "scope": "html",
+    "prefix": "link",
+    "body": [
+      "<link rel=\"stylesheet\" href=\"${0}\">"
+    ],
+    "description": "<link>, indented"
+  },
+  "List Item": {
+    "scope": "html",
+    "prefix": "li",
+    "body": [
+      "<li>${0}</li>"
+    ],
+    "description": "<li>: List Item"
+  },
+  "Main": {
+    "scope": "html",
+    "prefix": "main",
+    "body": [
+      "<main>",
+      "\t${0}",
+      "</main>"
+    ],
+    "description": [
+      "<main>: Main area,",
+      "indented"
+    ]
+  },
+  "Meta UTF-8": {
+    "scope": "html",
+    "prefix": "meta",
+    "body": [
+      "<meta charset=\"UTF-8\">${0}"
+    ],
+    "description": "<meta>: UTF-8"
+  },
+  "Navigation": {
+    "scope": "html",
+    "prefix": "nav",
+    "body": [
+      "<nav>",
+      "\t${0}",
+      "</nav>"
+    ],
+    "description": "<nav>: Navigation, indented"
+  },
+  "Option": {
+    "scope": "html",
+    "prefix": "option",
+    "body": [
+      "<option>${1}</option>${0}"
+    ],
+    "description": "<option>: No value attribute"
+  },
+  "Ordered List": {
+    "scope": "html",
+    "prefix": "ol",
+    "body": [
+      "<ol>",
+      "\t${0}",
+      "</ol>"
+    ],
+    "description": [
+      "<ol>: Ordered list",
+      "indented"
+    ]
+  },
+  "Ordered List with List Items": {
+    "scope": "html",
+    "prefix": "ol+",
+    "body": [
+      "<ol>",
+      "\t<li>${1}</li>",
+      "\t<li>${2}</li>",
+      "\t<li>${3}</li>${0}",
+      "</ol>"
+    ],
+    "description": [
+      "<ol><li>: Ordered list & 3 list",
+      "items, indented"
+    ]
+  },
+  "Paragraph": {
+    "scope": "html",
+    "prefix": "p",
+    "body": [
+      "<p>",
+      "\t${0}",
+      "</p>"
+    ],
+    "description": "<p>: Paragraph, indented"
+  },
+  "Script": {
+    "scope": "html",
+    "prefix": "script",
+    "body": [
+      "<script src=\"${0}\"></script>"
+    ],
+    "description": "<script src>"
+  },
+  "Section": {
+    "scope": "html",
+    "prefix": "section",
+    "body": [
+      "<section>",
+      "\t${0}",
+      "</section>"
+    ],
+    "description": "<section>, indented"
+  },
+  "Strong": {
+    "scope": "html",
+    "prefix": "strong",
+    "body": [
+      "<strong>${0}</strong>"
+    ],
+    "description": "<strong>: Strong emphasis"
+  },
+  "Style": {
+    "scope": "html",
+    "prefix": "style",
+    "body": [
+      "<style>",
+      "\t${0}",
+      "</style>"
+    ],
+    "description": "<style>, indented"
+  },
+  "Table": {
+    "scope": "html",
+    "prefix": "table",
+    "body": [
+      "<table>",
+      "\t${0}",
+      "</table>"
+    ],
+    "description": "<table>, indented"
+  },
+  "Table Caption": {
+    "scope": "html",
+    "prefix": "caption",
+    "body": [
+      "<caption>",
+      "\t${0}",
+      "</caption>"
+    ],
+    "description": [
+      "<caption>: Table caption,",
+      "indented"
+    ]
+  },
+  "Table Data Cell": {
+    "scope": "html",
+    "prefix": "td",
+    "body": [
+      "<td>${0}</td>"
+    ],
+    "description": "<td>: Table data cell"
+  },
+  "Table Header Cell": {
+    "scope": "html",
+    "prefix": "th",
+    "body": [
+      "<th>${0}</th>"
+    ],
+    "description": "<th>: Table header cell"
+  },
+  "Table Row": {
+    "scope": "html",
+    "prefix": "tr",
+    "body": [
+      "<tr>",
+      "\t${0}",
+      "</tr>"
+    ],
+    "description": "<tr>: Table row, indented"
+  },
+  "Table Row & Data Cell": {
+    "scope": "html",
+    "prefix": "trd",
+    "body": [
+      "<tr>",
+      "\t<td>${0}</td>",
+      "</tr>"
+    ],
+    "description": [
+      "<tr><td>: Table row",
+      "& data cell"
+    ]
+  },
+  "Table Row & Header Cell": {
+    "scope": "html",
+    "prefix": "trh",
+    "body": [
+      "<tr>",
+      "\t<th>${0}</th>",
+      "</tr>"
+    ],
+    "description": [
+      "<tr><th>: Table row",
+      "& header cell"
+    ]
+  },
+  "Unordered List": {
+    "scope": "html",
+    "prefix": "ul",
+    "body": [
+      "<ul>",
+      "\t${0}",
+      "</ul>"
+    ],
+    "description": [
+      "<ul>: Unordered list,",
+      "indented"
+    ]
+  },
+  "Unordered List with List Items": {
+    "scope": "html",
+    "prefix": "ul+",
+    "body": [
+      "<ul>",
+      "\t<li>${1}</li>",
+      "\t<li>${2}</li>",
+      "\t<li>${0}</li>",
+      "</ul>"
+    ],
+    "description": [
+      "<ul><li>: Unordered list & 3 list",
+      "items, indented"
+    ]
+  },
+  "Video": {
+    "scope": "html",
+    "prefix": "video",
+    "body": [
+      "<video src=\"\" poster=\"\" width=\"\" height=\"\" controls></video>"
+    ],
+    "description": [
+      "<video>: Video player,",
+      "1 video source"
+    ]
+  },
+  "Video with 2+ sources": {
+    "scope": "html",
+    "prefix": "video+",
+    "body": [
+      "<video poster=\"\" width=\"\" height=\"\" controls>",
+      "\t<source src=\"${1}\" type=\"video/webm\">",
+      "\t<source src=\"${2}\" type=\"video/mp4\">",
+      "</video>"
+    ],
+    "description": [
+      "<video>: Video player,",
+      "2+ video sources, indented"
+    ]
+  },
+  "Condensed Font Stack": {
+    "scope": "css",
+    "prefix": ",condensed",
+    "body": [
+      "Oswald, 'Avenir Next Condensed', AvenirNextCondensed-Medium, HelveticaNeue, sans-serif-condensed, 'Gill Sans Nova Cond', 'Arial Nova Condensed', 'Arial Narrow', sans-serif;${0}"
+    ],
+    "description": [
+      "Condensed font stack for",
+      "Apple, Windows, & Android"
+    ]
+  },
+  "Comments (Major)": {
+    "scope": "css",
+    "prefix": ",h1com",
+    "body": [
+      "/****************************************",
+      "${1}",
+      "****************************************/"
+    ],
+    "description": "Major commented sections"
+  },
+  "Comments (Minor)": {
+    "scope": "css",
+    "prefix": ",h2com",
+    "body": [
+      "/**********",
+      "${1}",
+      "**********/"
+    ],
+    "description": "Minor commented sections"
+  },
+  "Headings": {
+    "scope": "css",
+    "prefix": ",hx",
+    "body": "h1, h2, h3, h4, h5, h6",
+    "description": "Selector list for headings"
+  },
+  "Common UI Fonts Stack": {
+    "scope": "css",
+    "prefix": ",uifonts",
+    "body": [
+      "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'${0}"
+    ],
+    "description": [
+      "Common system fonts used by",
+      "Apple, Windows, & Android"
+    ]
+  },
+  "Condensed Font Stack (SCSS)": {
+    "scope": "scss",
+    "prefix": ",condensed",
+    "body": [
+      "Oswald, 'Avenir Next Condensed', AvenirNextCondensed-Medium, HelveticaNeue, sans-serif-condensed, 'Gill Sans Nova Cond', 'Arial Nova Condensed', 'Arial Narrow', sans-serif;${0}"
+    ],
+    "description": [
+      "Condensed font stack for",
+      "Apple, Windows, & Android"
+    ]
+  },
+  "Comments (Major) (SCSS)": {
+    "scope": "scss",
+    "prefix": ",h1com",
+    "body": [
+      "//****************************************",
+      "// ${1}",
+      "//****************************************"
+    ],
+    "description": "Major commented sections"
+  },
+  "Comments (Minor) (SCSS)": {
+    "scope": "scss",
+    "prefix": ",h2com",
+    "body": [
+      "//**********",
+      "// ${1}",
+      "//**********"
+    ],
+    "description": "Minor commented sections"
+  },
+  "Headings (SCSS)": {
+    "scope": "scss",
+    "prefix": ",hx",
+    "body": "h1, h2, h3, h4, h5, h6",
+    "description": "Headings selector list"
+  },
+  "Common UI Fonts Stack (SCSS)": {
+    "scope": "scss",
+    "prefix": ",uifonts",
+    "body": [
+      "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;${0}"
+    ],
+    "description": [
+      "Common system fonts used by",
+      "Apple, Windows, & Android"
+    ]
+  }
+}
