@@ -441,6 +441,26 @@
       "2+ video sources, indented"
     ]
   },
+  "Comments (Major)": {
+    "scope": "css",
+    "prefix": ",1com",
+    "body": [
+      "/****************************************",
+      "${1}",
+      "****************************************/"
+    ],
+    "description": "Major commented sections"
+  },
+  "Comments (Minor)": {
+    "scope": "css",
+    "prefix": ",2com",
+    "body": [
+      "/**********",
+      "${1}",
+      "**********/"
+    ],
+    "description": "Minor commented sections"
+  },
   "Condensed Font Stack": {
     "scope": "css",
     "prefix": ",condensed",
@@ -452,42 +472,53 @@
       "Apple, Windows, & Android"
     ]
   },
-  "Comments (Major)": {
-    "scope": "css",
-    "prefix": ",h1com",
-    "body": [
-      "/****************************************",
-      "${1}",
-      "****************************************/"
-    ],
-    "description": "Major commented sections"
-  },
-  "Comments (Minor)": {
-    "scope": "css",
-    "prefix": ",h2com",
-    "body": [
-      "/**********",
-      "${1}",
-      "**********/"
-    ],
-    "description": "Minor commented sections"
-  },
   "Headings": {
     "scope": "css",
     "prefix": ",hx",
     "body": "h1, h2, h3, h4, h5, h6",
     "description": "Selector list for headings"
   },
+  "Monospace Font Stack": {
+    "scope": "css",
+    "prefix": ",mono",
+    "body": [
+      "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Mono', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', Consolas, Courier, 'Courier New', monospace;${0}"
+    ],
+    "description": [
+      "Monospace fonts used by",
+      "Apple, Windows, & Android"
+    ]
+  },
   "Common UI Fonts Stack": {
     "scope": "css",
     "prefix": ",uifonts",
     "body": [
-      "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'${0}"
+      "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'${0}"
     ],
     "description": [
       "Common system fonts used by",
       "Apple, Windows, & Android"
     ]
+  },
+  "Comments (Major) (SCSS)": {
+    "scope": "scss",
+    "prefix": ",1com",
+    "body": [
+      "//****************************************",
+      "// ${1}",
+      "//****************************************"
+    ],
+    "description": "Major commented sections"
+  },
+  "Comments (Minor) (SCSS)": {
+    "scope": "scss",
+    "prefix": ",2com",
+    "body": [
+      "//**********",
+      "// ${1}",
+      "//**********"
+    ],
+    "description": "Minor commented sections"
   },
   "Condensed Font Stack (SCSS)": {
     "scope": "scss",
@@ -500,37 +531,28 @@
       "Apple, Windows, & Android"
     ]
   },
-  "Comments (Major) (SCSS)": {
-    "scope": "scss",
-    "prefix": ",h1com",
-    "body": [
-      "//****************************************",
-      "// ${1}",
-      "//****************************************"
-    ],
-    "description": "Major commented sections"
-  },
-  "Comments (Minor) (SCSS)": {
-    "scope": "scss",
-    "prefix": ",h2com",
-    "body": [
-      "//**********",
-      "// ${1}",
-      "//**********"
-    ],
-    "description": "Minor commented sections"
-  },
   "Headings (SCSS)": {
     "scope": "scss",
     "prefix": ",hx",
     "body": "h1, h2, h3, h4, h5, h6",
     "description": "Headings selector list"
   },
+  "Monospace Font Stack (SCSS)": {
+    "scope": "scss",
+    "prefix": ",mono",
+    "body": [
+      "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Mono', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', Consolas, Courier, 'Courier New', monospace;${0}"
+    ],
+    "description": [
+      "Monospace fonts used by",
+      "Apple, Windows, & Android"
+    ]
+  },
   "Common UI Fonts Stack (SCSS)": {
     "scope": "scss",
     "prefix": ",uifonts",
     "body": [
-      "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;${0}"
+      "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';${0}"
     ],
     "description": [
       "Common system fonts used by",

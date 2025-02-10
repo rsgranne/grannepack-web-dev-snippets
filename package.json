@@ -2,7 +2,7 @@
   "name": "grannepack-web-dev-snippets",
   "displayName": "GrannePack Web Dev Snippets",
   "description": "HTML-, CSS-, & SCSS-related snippets for Scott Granneman’s Web Dev courses",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "granneman",
   "author": {
     "name": "Scott Granneman",

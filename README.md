@@ -340,13 +340,7 @@ In the following tables, `${0}` represents the *final* cursor position. In most 
 
 ### CSS
 
-`,condensed` (Condensed font stack):
-
-```css
-Oswald, 'Avenir Next Condensed', AvenirNextCondensed-Medium, HelveticaNeue, sans-serif-condensed, 'Gill Sans Nova Cond', 'Arial Nova Condensed', 'Arial Narrow', sans-serif;${0}
-```
-
-`,h1com` (Large section comment):
+`,1com` (Large section comment):
 
 ```css
 /****************************************
@@ -354,7 +348,7 @@ ${1}
 ****************************************/
 ```
 
-`,h2com`  (Small section comment):
+`,2com`  (Small section comment):
 
 ```css
 /**********
@@ -362,19 +356,47 @@ ${1}
 **********/
 ```
 
+`,condensed` (Condensed font stack):
+
+```css
+Oswald, 'Avenir Next Condensed', AvenirNextCondensed-Medium, HelveticaNeue, sans-serif-condensed, 'Gill Sans Nova Cond', 'Arial Nova Condensed', 'Arial Narrow', sans-serif;${0}
+```
+
 `,hx` (Headings selector list):
 
 ```css
 h1, h2, h3, h4, h5, h6
 ```
 
+`,mono` (Monospace fonts stack):
+
+```css
+ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Mono', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', Consolas, Courier, 'Courier New', monospace;${0}
+```
+
 `,uifonts` (Common UI fonts stack):
 
 ```css
-system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'${0}
+system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';${0}
 ```
 
 ### SCSS
+
+`,1com` (Large section comment):
+
+```scss
+//****************************************
+// ${1}
+//****************************************
+```
+
+`,2com` (Small section comment):
+
+```scss
+//**********
+// ${1}
+//**********
+```
 
 `,condensed` (Condensed Font Stack):
 
@@ -382,32 +404,22 @@ system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto San
 Oswald, 'Avenir Next Condensed', AvenirNextCondensed-Medium, HelveticaNeue, sans-serif-condensed, 'Gill Sans Nova Cond', 'Arial Nova Condensed', 'Arial Narrow', sans-serif;${0}
 ```
 
-`,h1com` (Large section comment):
-
-```scss
-//****************************************
-// ${1}
-//****************************************
-```
-
-`,h2com` (Small section comment):
-
-```scss
-//**********
-// ${1}
-//**********
-```
-
 `,hx` (Headings selector list):
 
 ```scss
 h1, h2, h3, h4, h5, h6
 ```
 
+`,mono` (Monospace fonts stack):
+
+```scss
+ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Mono', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', Consolas, Courier, 'Courier New', monospace;${0}
+```
+
 `,uifonts` (Common UI Fonts Stack):
 
 ```scss
-system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;${0}
+system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';${0}
 ```
 
 More to come!
